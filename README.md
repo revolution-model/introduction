@@ -27,7 +27,9 @@ The model with which we think and talk about software development must capture t
 
 I believe the visualization of Revolution is capable of capturing the pivotal moments of any software scenario. And I’m going to dive into the discrete elements, but I want to give you a moment to have a first impression. To absorb my idea. 
 
-![Revolution Model](https://user-images.githubusercontent.com/12585856/136832537-9b8104d2-1490-4ec1-a5e6-4899ea50fbb7.png | width=300)
+
+
+<img src="https://user-images.githubusercontent.com/12585856/136832537-9b8104d2-1490-4ec1-a5e6-4899ea50fbb7.png" alt="Revolution Model" width="300px" >
 
 I call it Revolution because, well, for one, it revolves. It’s circular shape reflects the continuous and iterative nature of our work. But also because it is revolutionary. I am challenging a 60 year old model that is embedded into our daily language. 
 
