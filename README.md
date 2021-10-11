@@ -1,5 +1,5 @@
 # Introducing Revolution
-##### Emily Freeman
+_Created by Emily Freeman_
 
 ### Background
 
