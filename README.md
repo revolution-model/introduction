@@ -58,25 +58,31 @@ The lines have gotten fuzzy. On the other hand, I don’t think we need to tailo
 Roles are very different. Roles are temporary, inconsistent, constantly fluctuating. If I were an actress, the parts I played would be lengthy and varied. But the persona I would identify as would remain an actor, an artist, a thespian. Your work isn’t confined to a single set of skills. It may have been a decade ago, but not today. In any given week or sprint you may play the role of architect, thinking about how to design a feature or service. A developer, building out code or fixing a bug. An automation engineer, looking at how to improve the manual processes we often refer to as a toil. A release engineer, deploying code to different environments or releasing it to customers. Or an operations engineer, ensuring an application functions in consistent, expected ways. 
 
 ### Engineering Considerations
+
 **Testability**
 
 And no matter what role we play, we have to consider a number of issues. The first is testability. All software systems require testing to assure architects that designs work... developers that code works, operators that infrastructure is running as expected, and engineers of all disciplines that code changes won’t bring down the system. Testing, in its many forms, is what enables systems to be durable and have longevity. It’s what reassures engineers that changes won’t impact current functionality. A system without tests is a disaster waiting to happen, which is why testability is first among equals at this particular roundtable. 
 
 **Securability**
+
 Security is everyone’s responsibility, but few understand how to design and execute secure systems. I struggle with it. Security incidents, for the most part, are a high impact, low probability events. The really big disasters, the one that end up on the news, and cause us all to get free credit reporting for a year don’t happen super frequently. And thank goodness. Because you know there are endless small vulnerabilities lurking in our systems. Security is something we know we should dedicate time to but don’t often make time for. And let’s be honest, it’s hard and complicated and scary. 
 
 DevSecOps, the first derivative of DevOps, asked engineers to “move security left.” This approach meant that security was a consideration early in the process, not something that would block a release at the last moment. This is also the consideration under which I’m putting compliance and governance. While not perfectly aligned, I figure all the things you have to call lawyers about should just live together. But in all seriousness, these three concepts are really about risk management. Identity, data, authorization — it doesn’t really matter — the question is who has access to what, when, and how. And that is everyone’s responsibility at every stage. 
 
 **Reliability**
+
 Site reliability engineering or SRE is a discipline, a job, an approach for good reason. That said, availability is often mistakenly treated as a synonym for reliability. That said, availability is often mistakenly treated as a synonym for reliability.  If a system is availab le, but customer data is inaccurate or out of sync, the system is not reliable. If a system is available, but customer data is inaccurate or out of sync, the system is not reliable. Reliability has five key components: availability, latency, throughput, fidelity, and durability. Reliability may be the end result, but resiliency, for me, is the journey, the action, engineers can take to improve reliability. 
 
 **Observability**
+
 Observability is the ability to have insight into an application or system. It is the combination of telemetry, monitoring, and alerting available to engineers and leadership. There is an aspect of observability that overlaps with reliability, but the purpose of observability isn’t just to maintain a reliable system — though that is important — it is the capacity for engineers working on a system to have visibility into the inner workings of that system. The concept of observability originates in linear dynamic systems. And is defined as how well internal states of a system can be understood based on information about its external outputs. It is critical that when companies move systems to the cloud, or utilize managed services, they don’t lose visibility and confidence in their systems. The shared responsibility model of cloud storage, compute, and managed services require that engineering teams be able to quickly be alerted to, identify, and remediate issues as they arise. 
 
 **Flexibility**
+
 Flexible systems are capable of adapting to the meet the ever-changing needs of the customer and market segment. Flexible codebases absorb new code smoothly, embody a clean separation of concerns, are partitioned into small components or classes, and are architected to enable the now and the next. In flexible systems, chained dependencies are reduced or eliminated; database schemas accommodate change well, components communicate via a standardized and well-documented application programming interface (API). The only thing constant is change. And in every role we play, creating flexible solutions that will grow as the applications grow is critical. 
 
 **Scalability**
+
 Finally, scalability. Scalability refers to more than a system’s ability to scale for additional load. It implies growth and a system’s ability to grow over time. Scalability in the Revolution model carries the continuous innovation of a team and the byproducts of that growth within a system. For me, scalability is the most human of the considerations. It requires each of us, in our various roles, to consider everyone around us: our customers who use the system and rely on its services. Our colleagues — current and future — with whom we collaborate. And even our future selves. 
 
 Software development isn’t a straight line, nor is it a perfect loop. It is an ever-changing, complex dance.  There are twirls and pivots and difficult spins. Forward and backward engineers move in parallel, creating truly magnificent pieces of art. We need a modern model for this modern era. And I believe it's just this revolution that will get us started.
