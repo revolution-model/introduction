@@ -29,7 +29,7 @@ The model with which we think and talk about software development must capture t
 
 I believe the visualization of Revolution is capable of capturing the pivotal moments of any software scenario. And I’m going to dive into the discrete elements, but I want to give you a moment to have a first impression. To absorb my idea. 
 
-<img src="https://user-images.githubusercontent.com/12585856/136832537-9b8104d2-1490-4ec1-a5e6-4899ea50fbb7.png" alt="Revolution Model" width="500px" >
+<img src="assets/revolution.png" alt="Revolution Model" width="500px" />
 
 I call it Revolution because, well, for one, it revolves. It’s circular shape reflects the continuous and iterative nature of our work. But also because it is revolutionary. I am challenging a 60 year old model that is embedded into our daily language. And create a model that I think more accurately reflects the complexity of modern cloud native software development. 
 
@@ -80,3 +80,23 @@ Flexible systems are capable of adapting to the meet the ever-changing needs of 
 Finally, scalability. Scalability refers to more than a system’s ability to scale for additional load. It implies growth and a system’s ability to grow over time. Scalability in the Revolution model carries the continuous innovation of a team and the byproducts of that growth within a system. For me, scalability is the most human of the considerations. It requires each of us, in our various roles, to consider everyone around us: our customers who use the system and rely on its services. Our colleagues — current and future — with whom we collaborate. And even our future selves. 
 
 Software development isn’t a straight line, nor is it a perfect loop. It is an ever-changing, complex dance.  There are twirls and pivots and difficult spins. Forward and backward engineers move in parallel, creating truly magnificent pieces of art. We need a modern model for this modern era. And I believe it's just this revolution that will get us started.
+
+### Variations
+
+Since it's initial debut, the Revolution model has spurred introduction of several different flavors of visualizations.  The layout of it's roles and key production considerations serve as a great starting point for making all sorts of conversations more accessible.
+
+**Radar**
+
+<img src="assets/revolution-radar.png" alt="Revolution Model Radar Chart" width="500px" />
+
+Looking across the identified key production considerations, we can use a radar chart to easily visualize the shape of a project and how balanced it's development has been.  Over time, a projects's chart area should grow as it improves, and it's shape should become more well-rounded as various consideration are addressed.  Comparing the size and shape of the chart over time is an easily digestible way see how a project has progressed.
+
+**Application "Fitness"**
+
+<img src="assets/revolution-application-fitness.gif" alt="Revolution Model Fitness Chart" width="500px" />
+
+If we consider each section of each circle to represent completeness or overall quality of the efforts made in that area, we can also use the Revolution Model as a way to track overall project "fitness".  By tracking progress of each production consideration, made by each role, we model the work done towards completing each revolution.  This gives us a detailed view of the state of our project in a friendly visualization similar to what's commonly seen in many human health and fitness devices.  This also allows us to see where a project may be be falling behind, in either a specific consideration, or role, which can provide valuable information to shift project focus or even assist with staffing decisions.
+
+Comparing these charts over time gives us great visibility to where we're "completing the revolution", and where work still needs to be done.
+
+You can find a Microsoft Excel spreadsheet for generating Revolution Fitness charts [here](assets/revolution-model-fitness-tracker-chart.xlsx).
